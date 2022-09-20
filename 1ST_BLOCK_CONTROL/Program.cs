@@ -5,7 +5,7 @@ Console.WriteLine();
 
 string UserData = Console.ReadLine();
 
-char[] Separators = new char[] {' ', ','};
+char[] Separators = new char[] {' ', ',', '!', '.'};
 
 string[] UserArray = UserData.Split(Separators, StringSplitOptions.RemoveEmptyEntries);
 
